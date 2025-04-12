@@ -1,10 +1,13 @@
 {
-    "manifest_version": 3,
-    "name": "Axiom to GMGN Redirect",
-    "version": "1.0",
-    "description": "Redirect from Axiom to GMGN with CA address",
-    "permissions": ["contextMenus", "tabs"],
-    "background": {
-      "service_worker": "background.js"
-    }
+  "manifest_version": 3,
+  "name": "Axiom to GMGN Redirect",
+  "version": "1.0",
+  "description": "Redirect from Axiom to GMGN with CA address",
+  "permissions": ["contextMenus", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
   }
+}
